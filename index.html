@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Estilos de Letra de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    
+    
+    <!--Estilo de hoja de CSS para diseño General (Mobile First)-->
+    <link rel="stylesheet" href="./stylesheet/styles.css">
+
+    <!--Estilo de hoja de CSS para Diseño de Tablet (768px)-->
+    <link rel="stylesheet" href="./stylesheet/tablet.css" media="(min-width: 768px)">
+
+    <!--Estilo de hoja de CSS para Diseño de Laptop Pequeñas (1024px)-->
+    <link rel="stylesheet" href="./stylesheet/laptop.css" media="(min-width: 1024px)">
+
+    <!--Estilo de hoja para Laptop Grandes en adelante (>1440px)-->
+    <link rel="stylesheet" href="./stylesheet/computer.css" media="(min-width: 1440px)">
+
+    <title>Juan Carlos Aguilera Navarro</title>
+</head>
+
+<body>
+
+    <!--1era. Sección de Header-->
+
+    <header>
+        <nav class="nav-bar__container">
+            <ul class="nav-bar-menu__container">
+                <li class="nav--item">
+                    <a href="#" class="nav-item--link" data-target="home">Inicio</a>
+                </li>
+                <li class="nav--item">
+                    <a href="#" class="nav-item--link" data-target="about_me">Sobre Mi</a>
+                </li>
+                <li class="nav--item">
+                    <a href="#" class="nav-item--link" data-target="ability">Habilidades</a>
+                </li>
+                <li class="nav--item">
+                    <a href="#" class="nav-item--link" data-target="academic_training">Formación Académica</a>
+                </li>
+                <li class="nav--item">
+                    <a href="#" class="nav-item--link" data-target="projects">Proyectos</a>
+                </li>
+                <li class="nav--item">
+                    <a href="#" class="nav-item--link" data-target="contact_me">Contacto</a>
+                </li>
+            </ul>
+
+            <section class="hamburger-menu__container">
+                <span class="hamburger--lines"></span>
+                <span class="hamburger--lines"></span>
+                <span class="hamburger--lines"></span>
+            </section>
+
+        </nav>
+    </header>
+        
+    <main>
+       
+        <!--2da. Sección - Inicio-->
+        
+        <section class="home-info__container" id="home">
+            <h1>Juan Carlos Aguilera Navarro</h1>
+            <section class="home-info-elements__container">
+                <picture class="home-image__container">
+                    <img class="home--image home-animation" src="./assets/images/home_photo.png" alt="Imagen de un programador">
+                </picture>
+                <section class="home-info-card__container">
+                    <article class="home-info-text__container">
+                        <h2>Frontend Developer</h2>
+                        <p>Ingeniero Químico Petrolero y Frontend Developer con HTML, CSS 
+                            y el lenguaje de programación de JavaScript.</p>
+                    </article>
+                    <section class="home-button__container">
+                        <a href="./assets/CV_JuanCarlosAguileraNavarro.pdf" target="_blank">
+                            <button class="cv-Button">Descargar CV</button>        
+                        </a>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+
+        <!--3era. Sección - Sobre Mi -->
+
+        <section class="about-me__container" id="about_me">
+            <h2>Sobre Mí</h2>
+            <section class="about-me-info__container">
+                <article class="about-me--text">
+                    <p>Soy Ingeniero Químico Petrolero y actualmento me desarrollo como Frontend Developer, 
+                       para en un futuro especializarme tambien en Backend, logrando así ser un Desarrollador
+                       Full Stack. Siempre estoy en constante expansión por aprender nuevas tecnologías, lenguajes
+                       de programación y formas de poner en práctica mi conocimiento sobre Frontend.
+                    </p>
+                    <p>
+                        Mi principal propósito es aplicar mis conocimientos de Frontend para optimizar 
+                        los distintos procesos de la industria en Desarrollo Web de manera más eficaz, ágil 
+                        y efectiva. 
+                    </p>
+                </article>
+
+                <picture class="image-about-me__container">
+                    <img class="about-me--image" src="./assets/images/programador.png" alt="Imagen">
+                </picture>
+
+            </section>
+
+        </section>
+
+        <!--4ta. Sección - Habilidades -->
+        
+        <section class="ability__container" id="ability">
+            <h2>Habilidades</h2>
+            <section class="ability-cards-info__container">
+                <article class="ability-card--text">
+                    <img src="./assets/icons/html_logo.png" alt="Logo de HTML">
+                    <p>HTML</p>
+                </article>
+                <article class="ability-card--text">
+                    <img src="./assets/icons/css_logo.png" alt="Logo de CSS">
+                    <p>CSS</p>
+                </article>
+                <article class="ability-card--text">
+                    <img src="./assets/icons/javascript_logo.png" alt="Logo de JavaScript">
+                    <p>JavaScript</p>
+                </article>
+                <article class="ability-card--text">
+                    <img src="./assets/icons/git_logo.png" alt="Logo de Git">
+                    <p>Git</p>
+                </article>
+                <article class="ability-card--text">
+                    <img src="./assets/icons/github_logo.png" alt="Logo de GitHub">
+                    <p>GitHub</p>
+                </article>
+                <article class="ability-card--text">
+                    <img src="./assets/icons/chatgpt_logo.png" alt="Logo de GitHub">
+                    <p>ChatGPT</p>
+                </article>
+            </section>
+        </section>
+
+
+        <!--5ta. Sección - Formación Académica-->
+
+        <section class="academic-training__container" id="academic_training">
+            <h2>Formación Académica</h2>
+            <section class="academic-training-cards__container">
+                <article class="academic-training-cards--text">
+                    <picture class="academic-training--image__container">
+                        <img class="academic-training--image" src="./assets/icons/esiqie_logo.png" 
+                                    alt="Logo de la ESIQIE - IPN">
+                    </picture>
+                    <h3>Escuela Superior de Ingeniería Química e Industrias Extractivas</h3>
+                    <p>2017-2023</p>
+                </article>
+            </section>
+        </section>
+
+        <!--6ta. Sección - Proyectos -->
+
+        <section class="projects__container" id="projects">
+
+            <h2>Proyectos</h2>
+
+            <section class="projects-cards__container">
+                
+                <article class="projects-cards--text">
+
+                    <picture class="projects-cards-image__container">
+                        <img class="projects-cards--image" src="./assets/images/Batabit.jpg" 
+                        alt="">
+                    </picture>
+                <h3>Responsive Desing: Mobile First</h3>
+                <p>Creación de una página estática para una empresa
+                    de Criptomonedas llamada "BataBit" utilizando 
+                    los principios de Responsive Desing. Iniciando 
+                    en Mobile First para que posteriormente, mediante
+                    la aplicación de media queries, se pueda visualizar 
+                    en todos los dispositivos restantes disponibles. 
+                </p>
+                <h4>Herramientas y Tecnologías Utilizadas</h4>
+                
+                <section class="tools-technologies__container">
+                    <article class="tools-technologies-cards__container">
+                        <picture class="tools-technologies-image__container">
+                            <img class="tools-technologies--image" src="./assets/icons/html_logo.png" alt="Logo de HTML">
+                        </picture>
+                        <p>HTML</p>
+                    </article>
+                    <article class="tools-technologies-cards__container">
+                        <picture class="tools-technologies-image__container">
+                            <img class="tools-technologies--image" src="./assets/icons/css_logo.png" alt="Logo de CSS">
+                        </picture>
+                        <p>CSS</p>
+                    </article>
+                    <article class="tools-technologies-cards__container">
+                        <picture class="tools-technologies-image__container">
+                            <img class="tools-technologies--image" src="./assets/icons/javascript_logo.png" alt="Logo de JavaScript">
+                        </picture>
+                        <p>JavaScript</p>
+                    </article>
+                </section>
+
+                <section class="buttons-technologies__container">
+                    <a href="https://juan-carlos-aguilera.github.io/mobile-first-project/" target="_blank">
+                        <button class="button--demo">
+                            <img src="./assets/icons/preview_logo.png" alt="Logo de demo">
+                            Demo
+                        </button>
+                    </a>
+
+                    <a href="https://github.com/juan-carlos-aguilera/mobile-first-project" target="_blank">
+                        <button class="button--repository">
+                            <img src="./assets/icons/github_logo.png" alt="Loco de GitHub para repositorio">
+                            Repositorio
+                        </button>
+                    </a>
+                </section>
+
+                </article>
+
+                <article class="projects-cards--text">
+
+                    <picture class="projects-cards-image__container">
+                        <img class="projects-cards--image" src="./assets/images/Portafolio.jpg" 
+                        alt="">
+                    </picture>
+                <h3>Creación de Portafolio Web</h3>
+                <p>En este proyecto se visualiza mi trayectoria profesional 
+                    y personal como programador Frontend Developer. Asimismo 
+                    se ponen en práctica los conceptos que he adquirido recientemente 
+                    para poder crear una página lo mas accesible posible para todos
+                    los usuarios y dispositivos disponibles.
+                </p>
+                <h4>Herramientas y Tecnologías Utilizadas</h4>
+                
+                <section class="tools-technologies__container">
+                    <article class="tools-technologies-cards__container">
+                        <picture class="tools-technologies-image__container">
+                            <img class="tools-technologies--image" src="./assets/icons/html_logo.png" alt="Logo de HTML">
+                        </picture>
+                        <p>HTML</p>
+                    </article>
+                    <article class="tools-technologies-cards__container">
+                        <picture class="tools-technologies-image__container">
+                            <img class="tools-technologies--image" src="./assets/icons/css_logo.png" alt="Logo de CSS">
+                        </picture>
+                        <p>CSS</p>
+                    </article>
+                    <article class="tools-technologies-cards__container">
+                        <picture class="tools-technologies-image__container">
+                            <img class="tools-technologies--image" src="./assets/icons/javascript_logo.png" alt="Logo de JavaScript">
+                        </picture>
+                        <p>JavaScript</p>
+                    </article>
+                </section>
+
+                <section class="buttons-technologies__container">
+                    <a href="#" target="_blank">
+                        <button class="button--demo">
+                            <img src="./assets/icons/preview_logo.png" alt="Logo de demo">
+                            Demo
+                        </button>
+                    </a>
+
+                    <a href="#" target="_blank">
+                        <button class="button--repository">
+                            <img src="./assets/icons/github_logo.png" alt="Loco de GitHub para repositorio">
+                            Repositorio
+                        </button>
+                    </a>
+                </section>
+
+                </article>
+
+            </section>
+
+        </section>
+
+        <!--7ta Sección - Contácto -->
+
+        <section class="contact__container" id="contact_me">
+            <h2>Contáctame </h2>
+            <section class="contact-info__container">
+                <article class="contacto-info-cards__container">
+                        <img src="./assets/icons/email_logo_02.png" 
+                        alt="Logo de E-Mail">
+                        <h3>E-mail</h3>
+                        <p>juancaguileran@gmail.com</p>
+                </article>
+                <article class="contacto-info-cards__container">
+                        <img src="./assets/icons/whatsapp_logo.png" 
+                        alt="Logo de WhatsApp">
+                        <h3>WhatsApp</h3>
+                        <p>(55) 4473 0862</p>
+                </article>
+                <article class="contacto-info-cards__container">
+                    <a href="https://www.linkedin.com/in/juan-carlos-aguilera/" target="_blank">
+                        <img src="./assets/icons/linkedin_logo.png" 
+                        alt="Logo de LinkedIn">
+                        <h3>LinkedIn</h3>
+                    </a>
+                </article>
+                <article class="contacto-info-cards__container">
+                    <a href="https://github.com/juan-carlos-aguilera" target="_blank">
+                        <img src="./assets/icons/github_logo_01.png" 
+                        alt="Logo de GitHub">
+                        <h3>GitHub</h3>
+                    </a>
+                </article>
+            </section>
+
+        </section>
+
+    </main>
+    <footer>
+        <h2> | Copyright 2025 | Made with 🩵| </h2>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

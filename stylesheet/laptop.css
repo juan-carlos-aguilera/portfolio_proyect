@@ -1,0 +1,189 @@
+
+/* Barra de Navegación*/
+.nav-bar__container .nav-bar-menu__container .nav-item--link {
+    font-size: 1.6rem;
+}
+
+/* 2da. Sección - Inicio */
+.home-info__container h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 20px 20px 0px;
+}
+.home-info__container h2 {
+    font-size: 2.8rem;
+}
+.home-info__container p {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+
+.cv-Button {
+    font-size: 1.8rem;
+}
+
+.home-info-elements__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.home-image__container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.home--image {
+    width: 80%;
+}
+
+.home-info-text__container {
+    text-align: left;
+}
+
+.home-info-text__container h2 {
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.home-info-text__container p {
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.home-button__container {
+    text-align: left;
+}
+
+
+/* 3ra. Sección - Sobre Mí */
+.about-me__container h2 {
+    font-size: 2.8rem;
+}
+.about-me__container p {
+    font-size: 1.8rem;
+}
+
+.about-me-info__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 25px;
+}
+
+.image-about-me__container {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+}
+
+.about-me-info__container p {
+    justify-content: center;
+}
+
+
+
+
+/* 4ta Sección - Habilidades*/
+.ability__container h2 {
+    font-size: 2.8rem;
+}
+
+.ability__container p {
+    font-size: 1.8rem;
+}
+
+/* 5ta Sección - Formación Académica*/
+.academic-training__container h2 {
+    font-size: 2.8rem;
+}
+.academic-training__container h3 {
+    font-size: 2.4rem;
+}
+.academic-training__container p {
+    font-size: 1.8rem;
+}
+
+/* 6ta. Sección - Projectos */
+.projects__container h2 {
+    font-size: 2.8rem;
+}
+.projects__container h3 {
+    font-size: 2.4rem;
+}
+.projects__container h4 {
+    font-size: 1.9rem;
+}
+.projects__container p {
+    font-size: 1.8rem;
+}
+
+.projects-cards__container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    align-items: start;
+    justify-items: center;
+}
+
+.projects-cards--image {
+    width: auto;
+    max-height: 100%;
+    padding: 20px 10px;
+    margin: 0px;
+}
+
+.projects-cards--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}   
+
+/* 7ta. Sección - Contácto */ 
+.contact__container h2 {
+    font-size: 2.8rem;
+}
+.contact__container h3 {
+    font-size: 2.4rem;
+}
+.contact__container p {
+    font-size: 1.8rem;
+}
+
+.contact-info__container {
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+}
+
+.contacto-info-cards__container:first-child {
+    grid-column: span 1;
+    justify-content: center;
+}
+
+.contacto-info-cards__container:nth-child(2) {
+    grid-column: span 1;
+    justify-content: center;
+}
+
+.contacto-info-cards__container:nth-child(3) {
+    grid-column: span 1;
+    justify-content: start;
+}
+
+.contact-info__container:last-child {
+    grid-column: span 1;
+    justify-content: start;
+}
+
+footer h2 {
+    font-size: 1.8rem;
+}
+
+
+

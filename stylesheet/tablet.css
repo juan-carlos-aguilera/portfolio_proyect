@@ -1,0 +1,103 @@
+/* 2da. Sección - Inicio */
+.home-info__container h1 {
+    font-size: 2.4rem;
+}
+.home-info__container h2 {
+    font-size: 2rem;
+}
+.home-info__container p {
+    font-size: 1.6rem;
+}
+
+.cv-Button {
+    font-size: 1.6rem;
+}
+
+/* 3ra. Sección - Sobre Mí */
+.about-me__container h2 {
+    font-size: 2rem;
+}
+.about-me__container p {
+    font-size: 1.6rem;
+}
+
+
+/* 4ta Sección - Habilidades*/
+.ability__container h2 {
+    font-size: 2rem;
+}
+
+.ability__container p {
+    font-size: 1.6rem;
+}
+
+.ability-cards-info__container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.ability-card--text img {
+    width: 50%;
+    height: auto;
+}
+
+.ability-card--text p {
+    padding: 0px 5px 5px;
+}
+
+/* 5ta Sección - Formación Académica*/
+.academic-training__container h2 {
+    font-size: 2rem;
+}
+.academic-training__container h3 {
+    font-size: 1.8rem;
+}
+.academic-training__container p {
+    font-size: 1.6rem;
+}
+
+/* 6ta. Sección - Projectos */ 
+.projects__container h2 {
+    font-size: 2rem;
+}
+.projects__container h3 {
+    font-size: 1.8rem;
+}
+.projects__container h4 {
+    font-size: 1.7rem;
+}
+.projects__container p {
+    font-size: 1.6rem;
+}
+
+/* 7ta. Sección - Contácto */
+.contact__container h2 {
+    font-size: 2rem;
+}
+.contact__container h3 {
+    font-size: 1.8rem;
+}
+.contact__container p {
+    font-size: 1.6rem;
+}
+
+.contact-info__container {
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: auto;
+    transition: all 0.5s ease-in-out;
+}
+
+.contacto-info-cards__container {
+    transition: all 0.5s ease-in-out;
+}
+
+.contacto-info-cards__container:first-child {
+    grid-column: span 3;
+    justify-content: center;
+}
+
+.contacto-info-cards__container:last-child {
+    grid-column: span 1;
+    justify-content: start;
+}
+
