@@ -288,41 +288,59 @@ header .nav-bar__container {
 
     .ability-cards-info__container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3,1fr);
-        gap: 30px;
-        justify-items: center;
-        height: auto;
-        padding: 20px 15px;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+        padding: 10px;
     }
 
     .ability-card--text {
-        background-color: var(--buttons-color);
+        /* background-color: var(--buttons-color); */
         border-radius: 18px;
+        padding: 10px;
+        margin-bottom: 10px;
+        text-align: center;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-        text-align: center;
-        max-width: 170px;
-        width: 90%;
-        height: auto;
+        justify-content: flex-start;
+        height: 100%;
+        overflow: hidden;
     }
 
-    .ability-card--text p {
-        font-size: 1.5rem;
-        font-weight: 500;
+    .ability-card--text h3 {
+        font-family: var(--Mitr);
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: white;
         text-transform: uppercase;
-        color: black;
-        padding: 0px 5px 10px;
+        margin: 10px;
     }
 
-    .ability-card--text img {
-        max-width: 100px;
-        max-height: 100px;
-        width: 50%;
-        height: auto;
-        margin: 20px 0px 10px;
+    .ability-subskilss {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
+        gap: 15px;
+    }
+
+    .subskills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subskills img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 8px;
+    }
+
+    .subskills p {
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: white;
+        margin-top: 10px;
     }
 
     /* 5ta. Sección - FORMACIÓN ACADÉMICA */
