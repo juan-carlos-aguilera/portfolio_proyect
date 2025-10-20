@@ -124,26 +124,34 @@
 }
 
 .projects-cards__container {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 20px;
-    align-items: start;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto 50px auto; 
+  padding: 0 10px;
 }
 
-.projects-cards--image {
-    width: auto;
-    max-height: 100%;
-    padding: 20px 10px;
-    margin: 0px;
+.projects_category_title {
+  text-align: center;
+  width: 100%;
+  margin: 40px auto 25px auto;
+  font-weight: 700;
 }
 
-.projects-cards--text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}   
+.projects-cards__container.data-science {
+  grid-template-columns: 1fr;   
+  justify-items: center;        
+}
+
+.projects-cards__container.data-science .projects-cards--text {
+  max-width: 1200px;             
+  width: 100%;
+}
+
 
 /* 7ta. Sección - Contácto */ 
 .contact__container h2 {

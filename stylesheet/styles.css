@@ -419,6 +419,22 @@ header .nav-bar__container {
         text-transform: uppercase;
     }
 
+    .projects-category__container {
+        margin: 25px 0;
+        padding: 10px 15px;
+        background-color: var(--background-color);
+    }
+
+    .projects-category--title{
+        font-family: var(--Mitr);
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+        padding: 20px 10px;
+    }
+
     .projects-cards__container {
         display: flex;
         flex-direction: column;
